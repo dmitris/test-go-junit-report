@@ -5,7 +5,7 @@ A minimal example to investigate failures in github.com/jstemmer/go-junit-report
 
 Tests are failing because of the test output when t.Parallel() is used.
 
-Output with t.Parallel() in the test code:  
+Output <b>with</b> t.Parallel() in the test code:  
 ```
 $ go test -v
 === RUN TestDoFoo
@@ -15,7 +15,7 @@ $ go test -v
 PASS
 ok  	github.com/dmitris/test-go-junit-report	0.007s
 ```
-Output with t.Parallel() in the test code:   
+Output <b>without</b> t.Parallel() in the test code:   
 ```
 $ go test -v
 === RUN TestDoFoo
